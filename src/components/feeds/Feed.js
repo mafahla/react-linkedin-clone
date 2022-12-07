@@ -12,12 +12,13 @@ function Feed() {
     return (
         <div className='feed'>
             <div className='feed__input'>
+                <div className='feed__form'>
                 <Avatar />
                 <form>
-                    <input text="text" placeholder="Start a post" />
+                    <input type="text" placeholder="Start a post" />
                     <input type="submit" />
                 </form>
-            </div>
+                </div>
 
             <div className='feed__options'>
                 <div className='option'>
@@ -40,6 +41,7 @@ function Feed() {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }
