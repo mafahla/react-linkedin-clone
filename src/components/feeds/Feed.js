@@ -22,21 +22,31 @@ function Feed() {
 
             <div className='feed__options'>
                 <div className='option'>
+                    <div className='color'>
                     <PhotoIcon />
+                    </div>
                     <span>Photo</span>
+                    
                 </div>
 
                 <div className='option'>
+                <div className='color2'>
                     <YouTubeIcon />
+                    </div>
                     <span>Video</span>
                 </div>
 
                 <div className='option'>
+                <div className='color3'>
                     <BusinessCenterIcon/>
+                    </div>
                     <span>Jobs</span>
                 </div>
+
                 <div className='option'>
+                <div className='color4'>
                     <AssignmentIcon/>
+                    </div>
                     <span>Write article</span>
                 </div>
             </div>
