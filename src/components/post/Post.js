@@ -7,15 +7,17 @@ import CommentIcon from '@material-ui/icons/Comment';
 import ShareIcon from '@material-ui/icons/Share';
 import SendIcon from '@material-ui/icons/Send';
 
-function Post() {
+
+
+function Post({name, description, message, photoUrl}) {
     return (
         <div className="posts">
             <div className='post__header'>
                 <div className='post__headerLeft'>
-                    <Avatar />
+                    <Avatar src={photoUrl}/>
                     <div className='post_profile_details'>
-                        <h3>Ignatius Mafahla</h3>
-                        <p>we are learning react js</p>
+                        <h3>{name}</h3>
+                        <p>{description}</p>
                     </div>
                 </div>
 
@@ -25,9 +27,7 @@ function Post() {
             </div>
 
             <div className='post__body'>
-                <p> At FNB, we are committed to realising your potential. 
-                    Changeables understand that opportunities to learn, grow, and 
-                    transform are catalysts for thriving in their careers.</p>
+                <p> {message}</p>
             </div>
 
             <div className='post__footer'>
