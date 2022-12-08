@@ -1,0 +1,26 @@
+.posts{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.posts .post__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+/* .posts .post__header .post__headerLeft{
+    display: flex;
+    align-items: center;
+} */
+/* .posts .post__header .post_profile_details h3{
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+} */
+/* .posts .post__header .post_profile_details p{
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 10px;
+} */
+

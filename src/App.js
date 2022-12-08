@@ -5,6 +5,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Feed from './components/feeds/Feed';
 
 
+
 function App() {
   return (
     <div className='app-wrapper'>
@@ -12,6 +13,7 @@ function App() {
           <div className='app_body'>
             <Sidebar />
             <Feed />
+            {/* <Post /> */}
 
          </div>
     </div>
