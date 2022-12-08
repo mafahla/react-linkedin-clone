@@ -68,6 +68,18 @@ function Feed() {
                     transform are catalysts for thriving in their careers." 
             photoUrl="https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045__480.jpg"/>
             
+            <Post name="Microsoft Developers" description="Promoted" message="Get Azure with no up-front commitment. Pay only for the services you use beyond free amounts." 
+            photoUrl="https://play-lh.googleusercontent.com/kHRf85euDvW-Kg7ThXK2vv-J-Yye9uxoo6GQvUcAwudNRz1sQvXubAl_m2bu6KJofA"/>
+            
+            <Post name="Ignatius Mafahla" description="this is a clone test" message=" At FNB, we are committed to realising your potential. 
+                    Changeables understand that opportunities to learn, grow, and 
+                    transform are catalysts for thriving in their careers." 
+            photoUrl="https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045__480.jpg"/>
+            
+            
+            <Post name="Microsoft Developers" description="Promoted" message="Get Azure with no up-front commitment. Pay only for the services you use beyond free amounts." 
+            photoUrl="https://play-lh.googleusercontent.com/kHRf85euDvW-Kg7ThXK2vv-J-Yye9uxoo6GQvUcAwudNRz1sQvXubAl_m2bu6KJofA"/>
+            
 
 
 
