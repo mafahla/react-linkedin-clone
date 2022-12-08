@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import Feed from './components/feeds/Feed';
+import Widget from './components/widget/Widget';
 
 
 
@@ -13,7 +14,7 @@ function App() {
           <div className='app_body'>
             <Sidebar />
             <Feed />
-            {/* <Post /> */}
+            <Widget />
 
          </div>
     </div>
